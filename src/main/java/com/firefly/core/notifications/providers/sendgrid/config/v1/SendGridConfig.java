@@ -15,9 +15,9 @@
  */
 
 
-package com.firefly.core.notifications.provider.sendgrid.config.v1;
+package com.firefly.core.notifications.providers.sendgrid.config.v1;
 
-import com.firefly.core.notifications.provider.sendgrid.properties.v1.SendGridProperties;
+import com.firefly.core.notifications.providers.sendgrid.properties.v1.SendGridProperties;
 import com.sendgrid.SendGrid;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;

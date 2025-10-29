@@ -15,7 +15,7 @@
  */
 
 
-package com.firefly.core.notifications.provider.sendgrid.properties.v1;
+package com.firefly.core.notifications.providers.sendgrid.properties.v1;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;

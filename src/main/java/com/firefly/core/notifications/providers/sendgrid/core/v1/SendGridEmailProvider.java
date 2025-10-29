@@ -15,13 +15,13 @@
  */
 
 
-package com.firefly.core.notifications.provider.sendgrid.core.v1;
+package com.firefly.core.notifications.providers.sendgrid.core.v1;
 
 import com.firefly.core.notifications.interfaces.dtos.email.v1.EmailAttachmentDTO;
 import com.firefly.core.notifications.interfaces.dtos.email.v1.EmailRequestDTO;
 import com.firefly.core.notifications.interfaces.dtos.email.v1.EmailResponseDTO;
 import com.firefly.core.notifications.interfaces.interfaces.providers.email.v1.EmailProvider;
-import com.firefly.core.notifications.provider.sendgrid.properties.v1.SendGridProperties;
+import com.firefly.core.notifications.providers.sendgrid.properties.v1.SendGridProperties;
 import com.sendgrid.*;
 import com.sendgrid.helpers.mail.Mail;
 import com.sendgrid.helpers.mail.objects.Attachments;
