@@ -26,10 +26,11 @@ import org.springframework.context.annotation.Configuration;
 
 @Slf4j
 @Configuration
-@ConditionalOnProperty(prefix = "sendgrid", name = "api-key")
+@ConditionalOnProperty(prefix = "notifications.email", name = "provider", havingValue = "sendgrid")
 public class SendGridConfig {
 
     @Bean
+    @ConditionalOnProperty(prefix = "sendgrid", name = "api-key")
     public SendGrid sendGrid(SendGridProperties properties) {
         log.info("Initializing SendGrid email provider");
         return new SendGrid(properties.getApiKey());
